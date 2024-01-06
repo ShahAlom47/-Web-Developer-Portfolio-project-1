@@ -1,0 +1,497 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    display: block;
+    margin: auto;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+.primary-btn {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 225px;
+}
+
+.logo h1 {
+    color: #181818;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar ul li {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+header {
+    background: url('../images/header_bg.png')no-repeat bottom right;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contant {
+    padding: 230px;
+}
+
+.banner-gretting {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-title {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.banner-para {
+    width: 585px;
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+
+}
+
+.banner-btn-box {
+    margin-top: 30px;
+}
+
+.banner-btn-box button {
+    margin-right: 50px;
+}
+
+#contct-btn {
+    border: 2px solid #FD6E0A;
+    background: #FFF8F3;
+    color: #FD6E0A;
+}
+
+#profile img {
+    width: 584px;
+    height: 676px;
+    margin-right: 38px;
+
+}
+
+#profile {
+    display: flex;
+    align-items: end;
+}
+
+/* all-section */
+
+section {
+    margin: 130px 192px 0px 192px;
+
+}
+
+/* aboute-section -start */
+
+#about-me {
+    /* width: 1140px;
+height: 550px; */
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 131px 155px;
+
+}
+
+.about-title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 35px;
+}
+
+.about-box-contsiner {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.about-pera {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.under-box {
+    margin: 30px 25px 0px 25px;
+
+
+}
+
+.under-box h4 {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+
+}
+
+.under-box h2 {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+/* what i do section  */
+
+.what-i-do {}
+
+.do-title {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.do-pera {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin: 30px 105px;
+}
+
+.do-box-container {
+    display: flex;
+
+}
+
+.do-box {
+    margin: 25px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+}
+
+.do-box img {
+
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+
+}
+
+.do-box h1 {
+    color: var(--Dark-01, #181818);
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.do-box p {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    width: 201px;
+}
+
+
+/* resume section */
+
+.resume{
+  
+}
+.resume-btn{
+display: flex;
+justify-content: center;
+ padding: 40px;
+}
+.resume-title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;margin-bottom: 115px;
+}
+.resume-contaainer{
+    display: flex;
+    gap: 70px;
+}
+
+.resume-education-box{
+   
+}
+.education-title{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 20px;
+}
+.education-box1 {
+    
+    background: var(--White-Color, #FFF);
+    margin: 30px 0px;
+    padding-right: 15px;
+}
+.education-box1 h1{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px 0px;
+}
+.education-box1 h4 {
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.education-box1 p{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+margin: 20px 0px;
+
+}
+
+.resume-experience-box{
+
+}
+
+.experience-title{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 20px;
+}
+.experience-box1{
+   
+    background: var(--White-Color, #FFF);
+    padding-right: 15px;
+    margin: 30px 0px;
+}
+
+.experience-box1 h1{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px 0px;
+}
+.experience-box1 h4{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ 
+
+}
+
+.experience-box1 p{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin: 20px 0px;
+}
+
+/* footer satrt */
+footer{
+    display: flex;
+    justify-content: left;
+    background: #FFF8F3;
+    gap: 170px;
+    padding: 130px 230px;
+}
+
+.social-box{
+width: 50%;
+}
+.social-box h1{
+    color: var(--Dark-01, #181818);
+text-align: left;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.social-box p{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+margin: 20px 0px;
+}
+.social-link{
+    margin: 12px 0px;
+}
+
+.social-link img{
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin: 12px;
+}
+
+
+#form-box {
+    display: block;
+    width: 50%;
+}
+#form-box h1{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#form-box form{
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+}
+#form-box form input, textarea{
+    margin: 12px 0px;
+    padding: 18px 30px;
+    border-radius: 5px;
+background: var(--White-Color, #FFF);
+border: 0px;
+}
+::placeholder , textarea{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+
+#form-box button{
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+}
